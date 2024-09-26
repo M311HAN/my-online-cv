@@ -1,5 +1,9 @@
 # Online CV
 
+I have deployed the app using Netlify. Check out the live demo below:
+
+- Netlify: [here](https://my-online-cv-1905.netlify.app)
+
 This project is a professional online CV built using React.js and Bootstrap for UI components. It is a fully responsive and interactive web application that displays personal and professional information in an organized manner.
 
 ## Table of Contents
