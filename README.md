@@ -70,7 +70,7 @@ To install and run the application locally:
 1. Clone the repository:
 
 ```bash
-   git clone https://github.com/M311HAN/online-cv.git
+   git clone https://github.com/M311HAN/my-online-cv.git
    ```
 
 2. Navigate to the project directory:
