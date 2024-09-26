@@ -1,0 +1,39 @@
+/* src/components/Experience.css */
+
+.experience {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.experience h2 {
+  border-bottom: 0.8px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  display: inline-block;
+  width: 100%;
+  color: var(--muted-color);
+}
+
+.job {
+  margin-bottom: 20px;
+}
+
+.job h3 {
+  font-size: 1.25em; /* Slightly larger than normal */
+  color: #333; /* Darker color */
+  font-weight: bold; /* Make job title bold */
+}
+
+.experience .job-dates {
+  color: var(--muted-color); /* Muted color for dates */
+  margin-bottom: 10px; /* Add some space below the dates */
+}
+
+.job p {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold; /* Make paragraph descriptions bold */
+  line-height: 1.6;
+  margin-bottom: 10px; /* Add some space between paragraphs */
+}
+

@@ -1,0 +1,25 @@
+/* src/components/About.css */
+.about {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.about h2 {
+  border-bottom: 0.8px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  display: inline-block;
+  width: 100%;
+  color: var(--muted-color); /* Use muted color */
+}
+
+.about p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 15px;
+  line-height: 1.6;
+  font-weight: bold;
+}
+
+
+  

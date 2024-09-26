@@ -1,0 +1,39 @@
+/* src/components/Education.css */
+
+.education {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.education h2 {
+  border-bottom: 0.8px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  display: inline-block;
+  width: 100%;
+  color: var(--muted-color);
+}
+
+.school {
+  margin-bottom: 20px;
+}
+
+.school h3 {
+  font-size: 1.25em; /* Slightly larger than normal */
+  color: #333; /* Darker color */
+  font-weight: bold; /* Make school title bold */
+}
+
+.education .education-dates {
+  color: var(--muted-color); /* Muted color for dates */
+  margin-bottom: 10px; /* Add some space below the dates */
+}
+
+.school p {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold; /* Make paragraph descriptions bold */
+  line-height: 1.6;
+  margin-bottom: 10px; /* Add some space between paragraphs */
+}
+

@@ -1,0 +1,22 @@
+/* src/App.css */
+:root {
+  --muted-color: #6c757d; /* Bootstrap muted color */
+}
+
+.section-icon {
+  margin-right: 15px; /* Add space between icon and text */
+  vertical-align: middle; /* Align icon with text */
+  color: var(--muted-color); /* Use muted color */
+  font-weight: bold; /* Make icons bold */ 
+  font-size: 1.2em; 
+  transition: transform 0.3s ease; /* Smooth transition for transformation */
+}
+
+.section-icon:hover {
+  transform: scale(1.1); /* Enlarge the icon by 10% on hover */
+}
+
+/* Make the titles bolder */
+.skills h2, .experience h2, .education h2, .about h2, .achievements h2 {
+  font-weight: bold;
+}

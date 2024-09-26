@@ -1,0 +1,74 @@
+/* src/components/Header.css */
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: transform 0.3s, box-shadow 0.3s; /* Add transition for smooth effect */
+}
+
+.profile-picture:hover {
+  transform: scale(1.05); /* Slightly enlarge the picture */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle grey shadow */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px; /* Add margin to separate from text */
+}
+
+.social-icon {
+  font-size: 30px;
+  color: #333;
+  transition: transform 0.3s, color 0.3s; /* Add transition for smooth effect */
+}
+
+.social-icon:hover {
+  transform: scale(1.2); /* Slightly enlarge the icon */
+  color: #007bff; /* Change color on hover */
+}
+
+.header h1 {
+  color: #000; /* Keep Your Name in black */
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 100%;
+}
+
+.header h2 {
+  border-bottom: 0.8px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  display: inline-block;
+  width: 100%;
+  color: var(--muted-color);
+  font-size: 24px;
+}
+
+.header-email {
+  border-bottom: 0.8px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  display: inline-block;
+  width: 100%;
+}
+.header-icon {
+  margin-right: 8px; /* Add space between icon and text */
+  color: var(--muted-color);
+}
+
+.location-text {
+  font-weight: bold; /* Make the location text bold */
+}
+  
+  
+  
+  

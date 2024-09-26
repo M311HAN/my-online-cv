@@ -1,0 +1,57 @@
+/* src/components/Skills.css */
+:root {
+  --skills-color: #007bff; /* Color for skills */
+  --skills-hover-color: #0056b3; /* Hover color for skills */
+}
+
+.skills {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.skills h2 {
+  border-bottom: 0.8px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  display: inline-block;
+  width: 100%;
+  color: var(--muted-color);
+}
+
+.skills-icon {
+  margin-right: 10px;
+  vertical-align: middle;
+  color: var(--muted-color);
+}
+
+.skill-category {
+  margin-bottom: 20px;
+}
+
+.skill-category h3 {
+  font-size: 1.2em;
+  color: var(--muted-color);
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill {
+  padding: 2px 7px; /* Reduced padding to make badges smaller */
+  background-color: var(--skills-color);
+  color: #fff;
+  border-radius: 4px;
+  font-weight: bold; /* Make text inside the badges bolder */
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.skill:hover {
+  transform: translateY(-5px);
+  background-color: var(--skills-hover-color);
+}
+
+  
+  

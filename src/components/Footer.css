@@ -1,0 +1,9 @@
+/* src/Footer.css */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  .container {
+    padding-bottom: 60px; /* Add padding to ensure the footer doesn't overlap */
+  }
